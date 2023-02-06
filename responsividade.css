@@ -1,0 +1,115 @@
+@media (max-width: 800px) {
+    main-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .div-1-main-1 {
+        padding-left: 20px;
+        margin: 0 auto;
+    }
+
+    .div-1-main-3,
+    .div-parte-1-main-3,
+    .div-parte-2-main-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .div-2-main-1,
+    .div-3-main-1,
+    .div-3-main-1 button,
+    .div-4-main-1 {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .div-2-main-4 {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .div-2-main-6 p:last-child,
+    .div-1-main-7 p:last-child,
+    .div-1-main-8 p:last-child {
+        margin: 0px;
+    }
+
+    .div-1-main-3,
+    .div-parte-1-main-3,
+    .div-parte-2-main-3 {
+        width: 90%;
+    }
+
+    .div-2-main-2,
+    .div-2-main-2-parte-2,
+    .div-2-main-2-parte-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 15px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .p-main-4 {
+        padding: 0 5px;
+    }
+
+    .div-4-main-6-icones img {
+        width: 70px;
+        height: 70px;
+        margin-left: 0px;
+    }
+
+    .div-3-main-6,
+    .div-3-main-6-ultimo {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .div-4-main-6-icones {
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-main-6 {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .div-3-main-6,
+    .div-3-main-6-ultimo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1796px) {
+     .div-1-main-1 {
+        padding-left: 20px;
+        margin: 0 auto;
+    }
+    .div-2-main-1,
+    .div-3-main-1,
+    .div-3-main-1 button,
+    .div-4-main-1 {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .div-3-main-1 button{
+        margin-left: 10px;
+    }
+    .div-2-main-6 p:last-child, 
+    .div-1-main-7 p:last-child, 
+    .div-1-main-8 p:last-child{
+        padding: 5px;
+        margin: 0px;
+    }
+}
