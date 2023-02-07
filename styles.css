@@ -27,6 +27,12 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    letter-spacing: 0.7px;
+
+}
+strong {
+    font-family: 'Sora-Bold', sans-serif;
+    font-weight: bolder;
 }
 
 /* INICIO MAIN 1 */
@@ -36,26 +42,49 @@
     background-size: cover;
 }
 
+.main-1-largura {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.section-1 {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.video {
+    width: 100%;
+    max-height: 450px;
+}
+
+.video iframe {
+    border-radius: 18px;
+    width: 100%;
+    height: 450px;
+    max-height: 450px;
+}
+
 .div-1-main-1 {
     padding-top: 150px;
-    padding-left: 400px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
 }
 
 .div-1-main-1 img {
     max-width: 100px;
 }
 
-.div-2-main-1 {
-    max-width: 600px;
-    margin-left: 400px;
-}
-
 .p-1-div-1-main-1 {
     color: #fff;
     font-size: 21px;
     font-family: 'Sora-Medium';
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
 
 }
 
@@ -70,11 +99,9 @@
     font-size: 18px;
     font-family: 'Sora-Regular';
     padding-bottom: 15px;
+    text-align: center;
 }
 
-.div-3-main-1 {
-    width: 300px;
-}
 
 .button-main-1 {
     width: 100%;
@@ -82,12 +109,12 @@
 
 .div-3-main-1 {
     max-width: 500px;
-    margin-left: 400px;
+    width: 100%;
     margin-bottom: 15px;
 }
 
 .button-main-1 {
-    width: 400px;
+    width: 100%;
     height: 40px;
     background-color: #cfff00;
     cursor: pointer;
@@ -104,11 +131,11 @@
 
 .div-4-main-1 {
     max-width: 500px;
-    margin-left: 400px;
 }
 
 .div-4-main-1 img {
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
 }
 
 /* FIM MAIN 1 */
@@ -122,6 +149,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.main-2-largura {
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 .border-main-2 {
@@ -130,12 +163,11 @@
     margin: 0 auto;
     max-width: 200px;
     margin-top: 15px;
+    margin-bottom: 30px;
     border-image: linear-gradient(to right, #CFFF0000, #CFFF00, #CFFF0000) 0.5;
 }
 
 .div-1-main-2 p {
-    padding: 80px;
-    padding-bottom: 2px;
     text-align: center;
     color: #cfff00;
     font-family: 'Sora-Medium';
@@ -143,7 +175,6 @@
 }
 
 .div-tudo-main-2 {
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -151,12 +182,11 @@
 .div-2-main-2-parte-2,
 .div-2-main-2-parte-3 {
     border-radius: 8px;
-    width: 80%;
-    margin: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .div-2-main-2,
@@ -175,7 +205,7 @@
 
 .p-2-main-2 {
     color: #fff;
-    font-family: 'Sora-Regular';
+    font-family: 'Sora';
 }
 
 .div-3-main-2 img,
@@ -194,16 +224,11 @@
 }
 
 .div-3-main-2-parte-2 {
-    max-width: 120px;
+    /* max-width: 120px; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
     align-items: flex-end;
-}
-
-.div-2-main-2-parte-3 {
-    margin: 70px 70px 0px 70px;
-
 }
 
 /* FIM MAIN 2 */
@@ -235,27 +260,27 @@
 .div-1-main-3,
 .div-parte-1-main-3,
 .div-parte-2-main-3 {
-    align-items: start;
     padding: 60px 20px;
     display: flex;
     justify-content: center;
-    width: 70%;
+    max-width: 1020px;
 }
 
 .div-2-main-3 {
-    width: 100%;
+    max-width: 1020px;
     align-items: center;
 }
 
 .div-3-main-3 {
-    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 .p-1-main-3,
 .p-2-main-3 {
     color: #202020;
     font-family: 'Sora-Medium';
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.3em;
     letter-spacing: .4px;
 }
@@ -325,6 +350,14 @@
     color: #fff;
 }
 
+.main-4-largura,
+.main-5-largura,
+.main-6-largura,
+.main-8-largura {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
 .border-main-4 {
     width: 100%;
     Border: 1px solid;
@@ -352,7 +385,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 80px 0;
-    align-items: center;
+    align-items: start;
     text-align: center;
     justify-content: center;
     margin-top: 20px;
@@ -396,7 +429,6 @@
     margin-top: 15px;
     padding-bottom: 50px;
     text-align: center;
-    padding: 0 150px;
     color: #fff;
     font-family: 'Sora';
     font-size: 20px;
@@ -484,7 +516,9 @@
     background-color: #000512;
     background-size: cover;
 }
-
+.main-6-largura {
+    padding-bottom: 30px;
+}
 .border-main-6 {
     width: 100%;
     Border: 1px solid;
@@ -522,20 +556,19 @@
     font-family: 'Sora-Medium';
     margin-top: 90px;
     letter-spacing: 5px;
-
+    margin-bottom: 10px;
+    padding-top: 30px;
 }
 
 .div-2-main-6 p:last-child,
 .div-1-main-7 p:last-child,
 .div-1-main-8 p:last-child {
-    padding: 25px 80px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: #fff;
     text-align: center;
     font-family: 'Sora';
     font-size: 18px;
     line-height: 1.4em;
-    margin: 0px 400px;
 }
 
 .div-3-main-6,
@@ -543,13 +576,13 @@
     background-image: linear-gradient(180deg, #4870BF08 27%, #4870BF1F 150%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 1500px;
-    margin: 0 auto;
+    padding: 12px;
     margin-bottom: 60px;
 }
 
 .div-3-main-6-ultimo {
     margin-bottom: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .check-ok {
@@ -583,6 +616,7 @@
     font-size: 20px;
 }
 
+
 .p-2-main-6 {
     padding-top: 5px;
     margin-bottom: 20px;
@@ -604,20 +638,92 @@
 }
 
 /* FIM MAIN 6 */
-/*  */
-/*  */
-.main-7 {
-    background-color: #021131;
-    background-size: cover;
-}
+/* INICIO MAIN 7  */
 
-.div-1-main-7 p:first-child,
-strong,
-.div-1-main-8 p:first-child {
-    margin-top: 0px;
-    padding-top: 80px;
-    font-family: 'Sora-Bold';
+.main-7 {
+    background-color: #021231;
 }
+.main-7-largura {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.carrossel {
+    position: relative;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    max-width: 1020px;
+    flex-flow: row nowrap;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .item {
+    flex-shrink: 0;
+    /* transition: all 600ms ease-in-out; */
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  /* This is from w3schools */
+  /* 
+  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+
+
+
+/* FIM MAIN7 */
+/*  INICIO MAIN 8*/
 
 .main-8 {
     background-image: url('assets/bg-5.webp');
@@ -625,7 +731,170 @@ strong,
     background-position: top center;
     background-repeat: no-repeat;
 }
+.main-8-largura{
+    padding-bottom: 40px;
+}
+.div-1-main-8 p{
+    margin-top: 0 !important;
+}
+.div-3-main-6-ultimo-numeros {
+    background-image: linear-gradient(180deg, #4870BF08 27%, #4870BF1F 150%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 12px;
+    margin-bottom: 60px;
+}
 
+.div-3-main-6-ultimo-numeros {
+    margin-bottom: 0px;
+}
+
+/* FIM MAIN 8 */
+/*  INICIO MAIN 9*/
+
+.main-9 {
+    background-image: url('assets/bg-6.webp');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.main-9-largura{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.div-1-main-9{
+    color: #CFFF00;
+    font-size: 24px;
+    font-family: 'Sora-Medium';
+    padding-top: 40px;
+}
+.div-1-main-9 p{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+/* .border-main-2{
+    margin: 10px;
+    max-width: 42%;
+} */
+.div-2-main-9{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-top: 30px;
+    max-width: 600px;
+}
+.div-2-main-9 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.div-2-main-9 p{
+    font-size: 17px;
+    font-family: 'Sora'; 
+    color: #fff;
+}
+.main-10{
+    background-color: #050B1E;
+}
+.main-10-largura, .main-11-largura{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.div-1-main-10{
+    margin-top: 20px;
+}
+.p-1-main-10{
+    color: #cfff00;
+    font-size: 30px;
+    font-family: 'Sora-Bold';
+    padding-top: 20px;
+    text-align: center;
+}
+.p-2-main-10,
+.p-3-main-10{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Sora';
+    padding-top: 20px;
+    text-align: center;
+}
+.p-3-main-10{
+    padding-bottom: 90px;
+}
+.div-4-main-10{
+    padding: 15px;
+    margin-top: 30px;
+    max-width: 400px;
+}
+.div-4-main-10 img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+.div-4-main-10 p{
+    font-size: 17px;
+    font-family: 'Sora'; 
+    color: #fff;
+}
+.div-p-e-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-computador{
+    width: 500px;
+    height: 500px;
+}
+
+/* INICIO MAIN 11 */
+.main-11{
+    background-color: #021231;
+}
+.div-1-main-11{
+    display: flex;
+}
+.div-2-main-11{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.p-1-main-11{
+    color: #CFFF00;
+    font-family: 'Sora-Bold';
+    font-size: 25px;
+    text-align: center;
+}
+.imagem-garantia{
+    width: 500px;
+    height: 500px;
+}
+.p-2-main-11{
+    color: #CFFF00;
+    font-family: 'Sora-Medium';
+    font-size: 25px;
+    padding-bottom: 20px;
+} 
+.div-1-main-11{
+    display: flex;
+    flex-direction: column;
+
+}
+.div-3-main-11{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.p-3-main-11{
+    color: #D3D3D3;
+    font-family: 'Sora';
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 10px;
+}
 
 
 
