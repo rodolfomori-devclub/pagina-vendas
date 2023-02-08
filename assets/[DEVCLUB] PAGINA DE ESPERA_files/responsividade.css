@@ -55,7 +55,6 @@
     .div-parte-1-main-3,
     .div-parte-2-main-3 {
         width: 90%;
-        margin: 0 auto;
     }
 
     .div-2-main-2,
@@ -139,9 +138,6 @@
     }
     .p-2-main-13, .p-3-main-13 {
         margin: 20px;
-    }
-    .p-2-main-13{
-        text-align: center;
     }
     .div-1-main-14{
         display: grid;

@@ -106,36 +106,6 @@ strong {
 
 .button-main-1 {
     width: 100%;
-    transition: 1s;
-    animation-iteration-count: infinite;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    box-shadow: 0 0 18px 0 rgb(207 255 0 / 41%);
-    }
-
-.button-main-1 p {
-font-family: 'Sora-Bold';
-font-size: 15px;
-color: #000;
-}
-
-.button-main-1:hover {
-transform: scale(1.05);
-animation: none;
-}
-
-@keyframes tamanho {
-0% {
-    transform: scale(1);
-}
-
-50% {
-    transform: scale(1.05);
-}
-
-100% {
-    transform: scale(1);
-}
 }
 
 .div-3-main-1 {
@@ -577,6 +547,7 @@ animation: none;
 }
 
 .div-2-main-6 p:first-child,
+.div-1-main-7 p:first-child,
 .div-1-main-8 p:first-child {
     font-size: 25px;
     text-align: center;
@@ -589,6 +560,7 @@ animation: none;
 }
 
 .div-2-main-6 p:last-child,
+.div-1-main-7 p:last-child,
 .div-1-main-8 p:last-child {
     margin-bottom: 50px;
     color: #fff;
@@ -628,19 +600,19 @@ animation: none;
 }
 
 .div-4-main-6-icones img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
 }
 
 .p-1-main-6,
 .p-2-main-6 {
     padding-top: 20px;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
     color: #fff;
     font-family: 'Sora-Bold';
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -659,7 +631,7 @@ animation: none;
 
 .p-1-div-checks {
     font-family: 'Sora';
-    color: rgb(204, 197, 197);
+    color: #fff;
     margin-left: 10px;
     margin-bottom: 5px;
 }
@@ -674,19 +646,8 @@ animation: none;
 .main-7-largura {
     max-width: 1020px;
     margin: 0 auto;
-    padding-bottom: 60px;
 }
-.center {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-}
-.carousel-item {
-    transition: 0.5s !important;
-}
-.carousel-item img {
-    border-radius: 12px;
-}
+
 .carrossel {
     position: relative;
     padding: 15px;
@@ -760,28 +721,6 @@ animation: none;
     scrollbar-width: none;
     /* Firefox */
 }
-.div-1-main-7{
-    padding: 10px;
-}
-.p-1-main-7{
-    font-size: 25px;
-    text-align: center;
-    color: #cfff00;
-    font-family: 'Sora-Medium';
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-    padding-top: 30px;
-}
-
-.p-2-main-7{
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: center;
-    font-family: 'Sora';
-    font-size: 18px;
-    line-height: 1.4em;
-}
-
 
 
 
@@ -1017,7 +956,7 @@ animation: none;
 .img-logo-branco {
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .p-1-main-12 {
@@ -1077,13 +1016,11 @@ animation: none;
     max-width: 500px;
 }
 
-.main-14{
-   background-color: #DCDCDC;
-}
+
 .main-14-largura{
     padding-top: 0px;
 }
-.p-1-main-14-socios{
+.p-1-main-14{
     color: #202020;
     font-family: "Sora-Medium";
     font-size: 25px;
@@ -1094,15 +1031,11 @@ animation: none;
     justify-content: center;
 }
 .div-2-main-14{
+    background-color: #000;
     margin: 30px;
     margin-top: 80px;
-}
-video{
-    border-radius: 5px;
-}
-.div-2-main-14 p{
-    text-align: center;
-    padding-top: 15px;
+    width: 200px;
+    height: 200px;
 }
 
 /* INICIO MAIN 15 */
@@ -1119,7 +1052,6 @@ video{
     color: #CFFF00;
     font-family: 'Sora-Bold';
     font-size: 25px;
-    text-align: center;
 }
 .p-2-main-14{
     color: #D3D3D3;
@@ -1141,35 +1073,6 @@ video{
 }
 .p-1-main-16{
     text-align: center;
-}
-.botao-pergunta{
-    width: 100%;
-    color: #CFFF00;
-    background-color: #344057;
-    border: 0px;
-    font-size: 20px;
-    margin-top: 40px;
-    text-align: left;
-    padding: 24px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.imagem-pergunta{
-    margin-left: 10px;
-}
-.pergunta{
-    width: 100%;
-    background-color: #344057;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 24px;
-    font-size: 16px;
-    color: #FFF;
-}
-.pergunta p{
-    font-size: 16px;
 }
 
 
